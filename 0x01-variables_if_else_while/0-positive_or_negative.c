@@ -5,25 +5,31 @@
 
 /* betty style doc for function main goes there */
 /**
- * Main 'function' - output the sign of inserted int
+ * main- output the sign of inserted int
  *
- * Return:  A value of 0 (success) 
+ * Return:  A value of 0 (success)
  */
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	if (n == 0){
+	if (n == 0)
+	{
 		printf("%d is zero\n", n);
 	}
-	else{
-		if(n > 0){
+	else
+	{
+		if (n > 0)
+		{
 			printf("%d is positive\n", n);
 		}
-		else{ 
-			if (n < 0){
+		else
+		{
+			if (n < 0)
+			{
 				printf("%d is negative\n", n);
 			}
 		}
