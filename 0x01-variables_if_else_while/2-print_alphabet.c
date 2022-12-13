@@ -2,7 +2,7 @@
 
 /**
  * main - Prints the alphabet in lower case letters
- * 
+ *
  * Return: always 0(success)
  */
 int main(void)
@@ -14,6 +14,5 @@ int main(void)
 		putchar(c);
 	}
 	putchar('\n');
-	
 	return (0);
 }
