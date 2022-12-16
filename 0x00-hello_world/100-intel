@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -S $CFILEi -o main,s
