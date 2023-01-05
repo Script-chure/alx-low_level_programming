@@ -4,16 +4,12 @@
  * _abs - prints absolute value of int
  * @n: integar being checked
  *
- * Return: int
+ * Return: Absolute value of n.
  */
 int _abs(int n)
 {
-	if (n < 0)
-	{
-		n = n * -1;
-		_putchar(n);
-	}
+	if (n >= 0)
+		return (n);
 	else
-		_putchar(n);
-	return (n);
+		return (-n);
 }
